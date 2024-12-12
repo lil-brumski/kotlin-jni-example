@@ -2,7 +2,7 @@ package sam
 
 class NativeSample {
     init {
-        System.loadLibrary("NativeKotlinSample")
+        System.loadLibrary("kotlin-jni-example")
     }
     external fun sayHello();
 
